@@ -42,6 +42,14 @@ This project analyzes an e-commerce sales dataset using MySQL to identify sales 
 - AVG / aggregate calculations
 - MONTH()
 - LIMIT
+  
+## Key Insights
+
+- The South region generated the highest total sales at ₹44.38 lakh.
+- The Electronics category generated the highest profit at ₹7.67 lakh.
+- The South region recorded the highest total profit at approximately ₹4.72 lakh.
+- The highest average order value was observed in the South region at approximately ₹8,634.
+- Customer-level analysis was used to identify top customers based on sales, order count, and profit.
 
 ## Project Purpose
 
