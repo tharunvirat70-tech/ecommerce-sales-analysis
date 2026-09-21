@@ -1,60 +1,107 @@
-# E-Commerce Sales Analysis
+# 🛒 E-Commerce Sales Analysis
 
-## Project Overview
+## 📌 Project Overview
 
-This project analyzes an e-commerce sales dataset using MySQL to identify sales performance, profitability, customer behavior, product performance, regional trends, and monthly sales patterns.
+This project analyzes an e-commerce sales dataset to identify sales performance, customer behavior, product performance, regional trends, and business patterns.
 
-## Dataset
+The project follows an end-to-end data analytics workflow using **Excel, MySQL, SQL, and Power BI**.
 
-- 1,500 e-commerce sales records
-- Customer, product, category, region, quantity, sales, cost, profit, and payment information
+The objective is to transform raw e-commerce transaction data into meaningful business insights that can support data-driven decision-making.
 
-## Tools & Technologies
+---
 
-- MySQL
-- MySQL Workbench
-- SQL
+## 🎯 Project Objectives
 
-## Analysis Performed
+The main objectives of this project are:
 
-- Total sales, cost, profit, quantity, and orders
-- Sales by category
-- Sales by region
-- Top products by sales
-- Profit by category and region
-- Top customers by sales
-- Top customers by order count
-- Top customers by profit
-- Unique customers by region
-- Average order value by region and category
-- High-value orders
-- Monthly sales analysis
+- Analyze overall e-commerce sales performance
+- Identify top-performing products and categories
+- Understand customer purchasing behavior
+- Analyze sales across different regions and cities
+- Study monthly and time-based sales trends
+- Analyze quantity and revenue patterns
+- Identify high-performing and low-performing business segments
+- Use SQL to perform structured business analysis
+- Use Excel for data analysis and exploration
+- Build an interactive Power BI dashboard
+- Present insights in a professional and easy-to-understand format
 
-## Key SQL Concepts Used
+---
 
-- SELECT
-- WHERE
-- GROUP BY
-- ORDER BY
-- SUM()
-- COUNT()
-- COUNT(DISTINCT)
-- AVG / aggregate calculations
-- MONTH()
-- LIMIT
-  
-## Key Insights
+## 🗂️ Dataset
 
-- The South region generated the highest total sales at ₹44.38 lakh.
-- The Electronics category generated the highest profit at ₹7.67 lakh.
-- The South region recorded the highest total profit at approximately ₹4.72 lakh.
-- The highest average order value was observed in the South region at approximately ₹8,634.
-- Customer-level analysis was used to identify top customers based on sales, order count, and profit.
+The dataset contains e-commerce transaction and customer-related information.
 
-## Project Purpose
+### Key Columns
 
-The goal of this project is to practice SQL-based data analysis and extract meaningful business insights from e-commerce sales data.
+- Order ID
+- Order Date
+- Customer ID
+- Customer Name
+- Gender
+- Age
+- City
+- State
+- Region
+- Category
+- Sub-Category
+- Product
+- Quantity
+- Unit Price
 
-## Files
+The dataset contains customer, geographic, product, and transaction-level information that can be used to analyze sales performance and customer behavior.
 
-- `ecommerce_sales_analysis.sql` — SQL queries used for the analysis
+---
+
+## 🛠️ Tools & Technologies
+
+### Microsoft Excel
+- Data exploration
+- Data cleaning and preparation
+- Data analysis
+- Formula-based analysis
+- Business insights
+
+### MySQL
+- Data import
+- SQL querying
+- Filtering and aggregation
+- GROUP BY analysis
+- Sorting and ranking
+- Business-oriented SQL analysis
+
+### Power BI
+- Data visualization
+- Interactive dashboard creation
+- KPI analysis
+- Category and regional analysis
+- Customer and sales analysis
+- Business intelligence reporting
+
+### GitHub
+- Project version control
+- Portfolio documentation
+- Project file management
+
+---
+
+## 🔄 Project Workflow
+
+```text
+Raw Dataset
+     ↓
+Data Exploration
+     ↓
+Data Cleaning & Preparation
+     ↓
+Excel Analysis
+     ↓
+MySQL Data Import
+     ↓
+SQL Business Analysis
+     ↓
+Power BI Dashboard
+     ↓
+Business Insights
+     ↓
+GitHub Portfolio
